@@ -1,0 +1,135 @@
+body{
+    background: #fff;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+}
+.header-icon-item li a{
+    color:#fff;
+}
+.header-icon-item li a:hover{
+    background-color: #2b542c;
+}
+.border-for-all{
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.border-for-all li a:hover{
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.ncdb-content-box{
+    border-radius: 0px;
+    border-top:1px solid #ffff00;
+}
+
+#sidebar {
+    margin-top:90px;
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    left:0;
+    background: #2b542c;
+}
+#sidebar ul li {
+    position: relative;
+}
+#sidebar ul li a{
+    color:#eeeeff;
+}
+
+#sidebar .nav li a:hover, .sidebar .nav li.current > a {
+    background: #5cb85c;
+    color: #fff;
+    border-bottom:0px;
+}
+#sidebar .nav > li{
+    border-bottom: 1px dotted #2c3742;
+}
+.margin-fixed-top{
+    margin-top: 100px;
+}
+.head-title{
+    font-size: 22px;
+    color: #fff;
+    font-family: "Georgia", Times, serif;
+}
+.ward-office{
+    font-size: 16px;
+    color: #fff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+.ncdb-logo-img img{
+    border-radius: 50px;
+    height:100px;
+    width:100px;
+    margin:10px 0 10px 0;
+}
+.register-doses{
+    margin-bottom:15px;
+}
+.left-total,.middle-male,.right-female{
+    margin-bottom: 40px;
+}
+.cal-male-female{
+    font-size: 20px;
+    margin:20px;
+}
+.view-certificate{
+    padding-top: 40px;
+}
+.panel-default > .heading-color{
+    background-color: #2A4E76;
+}
+.reduce-padding-color{
+    border-top-left-radius: 0px;
+    padding:0px;
+}
+.title-color{
+    color:#fff;
+}
+.summery-part{
+    width: 19%;
+    float:left;
+    margin-right:1%;
+}
+.information-part{
+    width:80%;
+    float:left;
+}
+.white-color{
+    color:#fff;
+}
+.white-color:hover{
+    border-radius: 0px;
+}
+.white-color:active{
+    border-radius: 0px;
+}
+.text-bold-large{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+#tab1,#tab2,#tab3,#tab4{
+    min-height: 370px;
+}
+.border-for-bottom{
+    border-bottom: 1px solid #2c3742;
+}
+.last-text{
+    padding-top:30px;
+}
+.table-fix-height{
+    min-height: 250px;
+}
+.margin-px-30{
+    margin-top: 30px;
+}
+.page-content{
+    min-height: 570px;
+}
