@@ -1,23 +1,18 @@
-## Laravel PHP Framework
+# National Children Database (NCDB)
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Install
+NCDB project can be cloned from github and installed using following command.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+* git clone git@github.com:ashokadhikari92/NCDB_Final.git
+* cd NCDB_Final
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Run
+The app can be run with the command below:
 
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+* install the application dependencies using command: `composer install`
+* copy .env.example to .env and update your the database configurations
+* give write permission to the storage folder using `chmod -R 777 storage`
+* run migration using `php artisan migrate`
+* seed dummy data using `php artisan db:seed`
+* Serve application using `php artisan serve` (append `--port PORT_NUMBER` to run in different port other than 8000).
+* Access `localhost:8000` to run application on the browser.
